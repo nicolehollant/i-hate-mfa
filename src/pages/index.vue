@@ -3,7 +3,10 @@
     class="z-50 h-16 sm:h-20 border-b border-gray-400 dark:border-gray-800 w-full flex items-center sticky top-0 bg-gray-950/50 backdrop-blur"
   >
     <UContainer class="w-full flex items-center justify-between">
-      <h1 class="text-3xl tracking-[-0.02em] font-semibold text-primary-400 text-left">iHateMFA</h1>
+      <div class="flex items-center gap-4 pl-1">
+        <img src="/favicon.png" class="w-8 h-8" alt="" />
+        <h1 class="text-3xl tracking-[-0.02em] font-semibold text-primary-400 text-left">iHateMFA</h1>
+      </div>
       <div class="flex items-center gap-4">
         <UTooltip
           text="iHateMFA allows you to get TOTP MFA codes from your browser. Just register the displayed 'setup key' / 'secret' and copy the generated codes!"

@@ -60,7 +60,7 @@
           </div>
         </template>
 
-        <p class="text-lg">{{ key.description }}</p>
+        <p class="text-base whitespace-pre">{{ key.description }}</p>
         <UAccordion
           :items="[
             {
